@@ -19,8 +19,8 @@ Global
 		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Debug|x86.Build.0 = Debug|Win32
 		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Release|x64.ActiveCfg = Release|x64
 		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Release|x64.Build.0 = Release|x64
-		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Release|x86.ActiveCfg = Release|Win32
-		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Release|x86.Build.0 = Release|Win32
+		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Release|x86.ActiveCfg = Release|x64
+		{3E0C63EC-B42E-4157-90FC-8B1309B15A26}.Release|x86.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

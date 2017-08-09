@@ -13,5 +13,50 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\MainMenu">
+      <UniqueIdentifier>{3bade360-757a-437e-958d-4d899f6a6e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileReader">
+      <UniqueIdentifier>{cb1d9eb7-31d1-4b69-a7da-7224cf4887f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{01c039a6-8af7-4134-abd5-85b8b0e9567d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Words">
+      <UniqueIdentifier>{e13cc704-13ca-4bac-961a-612fd964f2ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\filereader.cpp">
+      <Filter>Header Files\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\game.cpp">
+      <Filter>Header Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\mainmenu.cpp">
+      <Filter>Header Files\MainMenu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\filereader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\mainmenu.h">
+      <Filter>Header Files\MainMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="words\es-es.words">
+      <Filter>Resource Files\Words</Filter>
+    </None>
+    <None Include="words\en-en.words">
+      <Filter>Resource Files\Words</Filter>
+    </None>
   </ItemGroup>
 </Project>

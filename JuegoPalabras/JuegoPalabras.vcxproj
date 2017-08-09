@@ -111,6 +111,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="includes\filereader.cpp" />
+    <ClCompile Include="includes\game.cpp" />
+    <ClCompile Include="includes\mainmenu.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\filereader.h" />
+    <ClInclude Include="includes\game.h" />
+    <ClInclude Include="includes\mainmenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="words\en-en.words" />
+    <None Include="words\es-es.words" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
